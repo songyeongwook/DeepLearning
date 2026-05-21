@@ -1,0 +1,15 @@
+hidden_size /num_layer/batch_size/lr/epochs  // dropout // 함수
+64/1/32/0.001/100 adam
+64/3/32/0.001/100//0.1adam
+128/3/32/0.001/50//0.1adam
+128/2/32/0.001/50//0.1adam
+128/1/16/0.001/50//0.1adam---Hidden _size//2
+128/3/32/0.001/50//0.1adam---Hidden _size//2  	3번쨰 layer drop_out x
+128/3/256/0.0001/50//0.1 					3번쨰 layer drop_out x
+128/3/256/0.001/50// 0.1 ## adamw함수			3번쨰 layer drop_out x	
+128/3/512/0.001/100//0.2					3번쨰 layer drop_out x	
+128/3/256/0.001/50//0.2 ---Hidden _size//2		3번쨰 layer drop_out x
+128/3/256/0.001/50//0.3					3번쨰 layer drop_out x
+128/4/256/0.001/50//0.1성능out				 3번쨰 layer drop_out x
+128/4/128/0.001/50//0.1					3번째 layer drop_out 0
+함수 변경 + 
