@@ -4,8 +4,6 @@
 Python 기반으로 다양한 딥러닝 모델과 데이터 분석 과정을 실습하며,
 신경망 구조와 학습 과정을 구현하는 것을 목표로 개발하였습니다.
 
-GitHub Repository:  
-:contentReference[oaicite:0]{index=0}
 
 ---
 
